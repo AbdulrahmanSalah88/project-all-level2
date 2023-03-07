@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Denk One', sans-serif; */
+  font-family: "El Messiri", sans-serif;
+}
+body {
+  background-color: royalblue;
+  color: #fff;
+  /* min-height: 1000px; */
+}
+
+h1 {
+  /* border: red solid 2px; */
+  /* width: 100%; */
+  background-image: linear-gradient(to top, royalblue, rgb(255, 255, 255, 0.3));
+  text-align: center;
+  padding-top: 80px;
+  font-size: 60px;
+  margin-bottom: 80px;
+  font-family: "Denk One", sans-serif;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 60%;
+  padding: 10px 15px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  background: rgba(135, 147, 235, 0.869);
+  box-shadow: 0 8px 32px 0 rgba(236, 236, 241, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: "El Messiri", sans-serif;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  font-family: "Denk One", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 100px;
+  border-radius: 10px;
+  border: #fff solid 1px;
+  margin-bottom: 200px;
+  outline-style: none;
+}
+
+/* input:focus {
+  outline: none;
+} */
+
+#upload {
+  all: unset;
+  font-size: 70px;
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
+#upload:hover {
+  color: rgba(42, 41, 41, 0.568);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.icon {
+  opacity: 0.5;
+  font-size: 28px;
+}
+
+.icon-star:hover {
+  opacity: 1;
+  color: yellow;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.icon-trash {
+  margin-right: 5px;
+}
+
+.icon-trash:hover {
+  opacity: 1;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.icon-angry2:hover {
+  opacity: 1;
+  color: red;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.non {
+  display: none;
+}
+.icon-heart {
+  opacity: 1;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.line {
+  text-decoration-line: line-through;
+}
+
+.star {
+  opacity: 1;
+  color: yellow;
+}
+
+#cres {
+  
+  all: unset;
+  font-size: 70px;
+  color: #fff;
+  opacity: 0.3;
+
+}
+
+#cres:hover {
+    opacity: 1;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+
+

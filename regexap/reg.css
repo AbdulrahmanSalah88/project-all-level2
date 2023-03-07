@@ -1,0 +1,22 @@
+ img{
+    display: block;
+ 
+    margin-top: 30px;
+border-radius: 20px ;
+/* display: none; */
+}
+
+
+.eroor{
+  border: red 2px solid;
+  outline-style: none;
+}
+
+.success {
+  border: green 2px solid;
+  outline-style: none;
+}
+
+input {
+  border-radius: 8px;
+}
